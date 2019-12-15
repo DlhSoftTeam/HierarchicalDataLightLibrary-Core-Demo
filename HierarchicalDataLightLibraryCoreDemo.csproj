@@ -6,4 +6,24 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\AddNew.png" />
+    <None Remove="Images\DecreaseIndentation.png" />
+    <None Remove="Images\Delete.png" />
+    <None Remove="Images\IncreaseIndentation.png" />
+    <None Remove="Images\InsertNew.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DlhSoft.HierarchicalDataLightLibrary" Version="4.0.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\AddNew.png" />
+    <Resource Include="Images\DecreaseIndentation.png" />
+    <Resource Include="Images\Delete.png" />
+    <Resource Include="Images\IncreaseIndentation.png" />
+    <Resource Include="Images\InsertNew.png" />
+  </ItemGroup>
+
 </Project>
