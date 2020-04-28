@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DlhSoft.HierarchicalDataLightLibrary" Version="4.0.10.2" />
+    <PackageReference Include="DlhSoft.HierarchicalDataLightLibrary" Version="4.0.10.6" />
   </ItemGroup>
 
   <ItemGroup>
